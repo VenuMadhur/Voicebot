@@ -1,0 +1,17 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next { height: 100%; }
+body {
+  margin: 0;
+  background: linear-gradient(180deg,#071024 0%, #0a0f1a 100%);
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button:focus {
+  outline: 3px solid rgba(99,102,241,0.22);
+  outline-offset: 2px;
+}
